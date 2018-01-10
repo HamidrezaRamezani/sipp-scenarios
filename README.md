@@ -1,14 +1,10 @@
 # sipp-scenarios
 
-We are using SIPp application to test FreeSwitch and Asterisk.
+We are using SIPp application to test NGN elements
 
-List of Our scenarios:
-
-1- Registering SIP users in Asterisk
-
-2- Generating SIP calls to test Asterisk maximum CPS
-
-3- Generating SIP calls to test FreeSwitch
+for testing an element we need to create two inject file for SIPp UAC and UAS subscriber information.
+also we need to write two script for UAS to register and start listening for incoming calls and UAC to register and generating
+calls to UAS.
 
 
 Note:
