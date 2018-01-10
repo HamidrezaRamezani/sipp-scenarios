@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE scenario SYSTEM "sipp.dtd">
-<scenario name="HAMIDREZA">
+<scenario name="INVITE with 407">
  <send retrans="500">
    <![CDATA[
      INVITE sip:[field3]@[remote_ip] SIP/2.0
